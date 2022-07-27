@@ -116,6 +116,12 @@
   font-weight: 400;
 }
 
+.copyright {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
 .time {
   font-size: 6.25rem;
   line-height: 8.6875rem;

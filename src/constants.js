@@ -8,6 +8,7 @@ const STOP = "Stop";
 const START = "Start";
 const CONFIRM =
   "Are you sure you want to finish the round early? (The remaining time will not be counted in the report.)";
+const AUTHOR = "This site is built by Ariel Magno using React / Redux Toolkit"
 
 const BELL_SOUND = "sounds/alarm-bell.mp3";
 const DIGITAL_SOUND = "sounds/alarm-digital.mp3";
@@ -30,4 +31,5 @@ export {
   SLOW_TICKING,
   FAST_TICKING,
   NO_SOUND,
+  AUTHOR
 };

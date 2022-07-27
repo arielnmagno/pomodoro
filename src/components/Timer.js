@@ -15,6 +15,7 @@ import {
   STOP,
   TIME_FOR_A_BREAK,
   TIME_TO_FOCUS,
+  AUTHOR,
 } from "../constants";
 import { updateFavicon, updateTitle, formatTime } from "../helpers";
 import useCountdown from "../useCountdown";
@@ -225,6 +226,9 @@ export default function Timer() {
         <div className={classes.counter}>#{round}</div>
         <footer className={classes.footer}>
           {mode === POMODORO ? TIME_TO_FOCUS : TIME_FOR_A_BREAK}
+          <div className={classes.copyright}>
+            <p>{AUTHOR}</p>
+          </div>
         </footer>
       </div>
     </div>
