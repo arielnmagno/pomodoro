@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ```bash
-git clone https://github.com/usmansbk/pomofocus.git
+git clone https://github.com/arielnmagno/pomodoro.git
 cd ./pomofocus
 ```
 
